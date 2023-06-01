@@ -1,0 +1,71 @@
+.gomb1:hover {
+    background-color: blueviolet;
+    color: black !important;
+    border-radius: 20px;
+}
+
+.gomb2:hover {
+    background-color: red;
+    color: black !important;
+    border-radius: 20px;
+}
+
+.gomb3:hover {
+    background-color: darkcyan;
+    color: black !important;
+    border-radius: 20px;
+}
+
+.dcg:hover {
+    background-color: RGB(88, 101, 242);
+    color: black !important;
+    border-radius: 20px;
+}
+
+.navbar-nav .hover {
+    color: red !important;
+}
+
+.kep {
+    width: 40%;
+    float: right;
+}
+
+#test {
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+.navll {
+    border: black !important;
+}
+
+#k2 {
+    padding-top: 10px;
+}
+
+#texter {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to right, #ff10f3, #ff1010);
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    border-radius: 20px;
+}
+
+:hover.gotopbtn {
+    color: rgb(73, 3, 62);
+}
