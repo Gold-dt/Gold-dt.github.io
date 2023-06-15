@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(32, 136, 177) !important;
+}
+.header{
+    background-image: url(https://compass-ssl.xboxlive.com/assets/01/47/01472a21-b89f-4186-997d-1c54ab030643.jpg?n=Join_Callout_Desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.hs
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+.navbar{
+    background-color: black !important;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+progress {
+    border: 0;
+    height: 20px;
+    border-radius: 20px;
+}
+progress::-webkit-progress-bar {
+    border: 0;
+    height: 20px;
+    border-radius: 20px;
+}
+progress::-webkit-progress-value {
+    border: 0;
+    height: 20px;
+    border-radius: 20px;
+}
+progress::-moz-progress-bar {
+    border: 0;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.szam{
+    border: 2px solid black;
+    margin: 25px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 65%;
+    background-color: rgb(39, 153, 219);
+}

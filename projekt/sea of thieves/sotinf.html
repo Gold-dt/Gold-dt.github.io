@@ -14,6 +14,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <link rel="stylesheet" href="css/ssot.css">
         <link rel="stylesheet" href="/css/pop.css">
         <style>
             .fakeimg {
@@ -26,9 +27,14 @@
         <title>Gold dt</title>
     </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="header mx-auto">
+        <img src="img/sotnamelogo.png" class="img-fluid hs">
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container-fluid">
-            <a class="navbar-brand nav-link disabled" href="#">Információk</a>
+            <a class="navbar-brand" href="#">
+                <img src="img/name.png" alt="" width="160" height="50">
+              </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -79,5 +85,31 @@
             </div>
         </div>
     </nav>
+    <div class="container">
+        <div class="szam mx-auto">
+            <h1>Timer</h1>
+            <h2>Chicken I Pork I Snake I Shark</h2>
+            <button onclick="ido1()">Start</button>
+            <button onclick="clearido">Stop</button>
+            <div id="countdown66"></div>
+            <progress value="0" max="65" id="progressBar"></progress>
+            <h2>Regular Fish</h2>
+            <button onclick="ido2()">Start</button>
+            <button onclick="ido2(setTimeout,0)">Stop</button>
+            <div id="countdown46"></div>
+            <progress value="0" max="45" id="progressBar1"></progress>
+            <h2>Megalodon I Kraken</h2>
+            <button onclick="ido3()">Start</button>
+            <button onclick="ido3(setTimeout,0)">Stop</button>
+            <div id="countdown126"></div>
+            <progress value="0" max="125" id="progressBar2"></progress>
+            <h2>Trophy Fish</h2>
+            <button onclick="ido4()">Start</button>
+            <button onclick="ido4(setTimeout,0)">Stop</button>
+            <div id="countdown96"></div>
+            <progress value="0" max="95" id="progressBar3"></progress>
+        </div>
+    </div>
+    <script src="js/timer.js"></script>
 </body>
 </html>
